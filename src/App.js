@@ -6,12 +6,14 @@ import CostPage from './components/costPage';
 import DeliveryPage from './components/deliveryPage';
 import QualityPage from './components/qualityPage';
 import InventoryPage from './components/inventoryPage';
+import OpeningPage from './components/openingPage';
 import { kpiData } from './data/kpiData';
 
 function App() {
   const [currentPage, setCurrentPage] = useState(0);
 
   const pages = [
+     { name: 'opening', component: OpeningPage, data: null, color: 'bg-gray-500' },
     { name: 'people', component: PeoplePage, data: kpiData.people, color: 'bg-blue-500' },
     { name: 'safety', component: SafetyPage, data: kpiData.safety, color: 'bg-red-500' },
     { name: 'cost',   component: CostPage,   data: kpiData.cost ,  color: 'bg-amber-500' },
