@@ -29,7 +29,7 @@ function App() {
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrentPage((prev) => (prev + 1) % pages.length);
-    }, 10000); 
+    }, 5000); 
 
     return () => clearInterval(timer);
   }, [pages.length]);
