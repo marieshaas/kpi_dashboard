@@ -108,7 +108,7 @@ export const kpiData = {
       unit: "pcs",
     },
     image: {
-      label: "dowel terlepas dari bottom rail"
+      label: "Dowel terlepas dari bottom rail"
     }
   },
 

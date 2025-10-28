@@ -43,7 +43,7 @@ const QualityPage = ({ data }) => {
                 <span className="text-5xl font-black text-green-900">
                   {data.kpis.nc_router_doors.unit}
                 </span>
-                <div className="text-2xl font-semibold text-green-900 opacity-80">
+                <div className="text-2xl font-bold text-green-900 opacity-80">
                   {data.kpis.nc_router_doors.label}
                 </div>
               </div>
