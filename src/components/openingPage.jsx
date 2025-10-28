@@ -17,7 +17,7 @@ const OpeningPage = () => {
           </div>
           <h2 className="text-6xl font-black text-purple-900">Performance</h2>
           <h2 className="text-6xl font-black text-purple-900">Overview</h2>
-          <h2 className="text-4xl font-black text-purple-900">Operation 3575</h2>
+          <h2 className="text-4xl font-black text-purple-900 mt-2">Operation 3575</h2>
         </div>
 
         {/* Right Side - Category Bars */}
@@ -40,7 +40,7 @@ const OpeningPage = () => {
             <BadgeCheck size={60} className="text-white" strokeWidth={2.5} />
             <h3 className="text-3xl font-black text-white">QUALITY</h3>
           </div>
-          
+
           {/* COST */}
           <div className="bg-gradient-to-r from-yellow-500 to-yellow-600 rounded-lg p-6 flex items-center gap-6 shadow-lg">
             <Banknote size={60} className="text-white" strokeWidth={2.5} />
