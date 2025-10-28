@@ -59,21 +59,21 @@ export const kpiData = {
     kpis: {
       mifot: {
         joinerydoors: {
-          value: "85",
+          value: "0",
           unit: "%"
         },
         slabdoors_flush: {
-          value: "98",
+          value: "0",
           unit: "%"
         },
         wrd: {
-          value: "98",
+          value: "0",
           unit: "%"
         }        
       },
       maintenance_perform: {
         mttr: {
-          value: "60",
+          value: "35",
           unit: "min"
         },
         am_tpm: {
@@ -81,17 +81,17 @@ export const kpiData = {
           unit: "%"
         },
         breakdown_ratio: {
-          value: "0.22",
+          value: "0.08",
           unit: "%"
         }
       },
       difot: {
         joinerydoors: {
-          value: "80",
+          value: "0",
           unit: "%"
         },
         slabdoors_flush: {
-          value: "80",
+          value: "0",
           unit: "%"
         }
       }

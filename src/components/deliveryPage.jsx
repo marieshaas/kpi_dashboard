@@ -35,7 +35,7 @@ const DeliveryPage = ({ data }) => {
           {/* MIFOT Column */}
           <div>
             <div className="bg-white rounded-2xl shadow-xl p-6 mb-4">
-              {/* <div className="space-y-4">
+              <div className="space-y-4">
                 <div className="bg-yellow-800 rounded-xl px-6 py-4 flex items-center justify-between">
                   <span className="text-white font-bold text-xl">Joinery Doors</span>
                   <span className="text-white font-black text-2xl">{data.kpis.mifot.joinerydoors.value}{data.kpis.mifot.joinerydoors.unit}</span>
@@ -48,7 +48,7 @@ const DeliveryPage = ({ data }) => {
                   <span className="text-white font-bold text-xl">WRD</span>
                   <span className="text-white font-black text-2xl">{data.kpis.mifot.wrd.value}{data.kpis.mifot.wrd.unit}</span>
                 </div>
-              </div> */}
+              </div>
             </div>
             <div className="backdrop-blur-sm rounded-xl px-8 py-3 text-center">
               <h2 className="text-3xl font-black text-white">MIFOT</h2>
@@ -84,7 +84,7 @@ const DeliveryPage = ({ data }) => {
           {/* DIFOT Column */}
           <div>
             <div className="bg-white rounded-2xl shadow-xl p-6 mb-4">
-              {/* <div className="space-y-4">
+              <div className="space-y-4">
                 <div className="bg-yellow-800 rounded-xl px-6 py-8 flex items-center justify-between">
                   <span className="text-white font-bold text-xl">Joinery Doors</span>
                   <span className="text-white font-black text-3xl">{data.kpis.difot.joinerydoors.value}{data.kpis.difot.joinerydoors.unit}</span>
@@ -93,7 +93,7 @@ const DeliveryPage = ({ data }) => {
                   <span className="text-white font-bold text-xl">Slab Doors & Flush</span>
                   <span className="text-white font-black text-3xl">{data.kpis.difot.slabdoors_flush.value}{data.kpis.difot.slabdoors_flush.unit}</span>
                 </div>
-              </div> */}
+              </div>
             </div>
             <div className="backdrop-blur-sm rounded-xl px-8 py-3 text-center">
               <h2 className="text-3xl font-black text-white">DIFOT</h2>
