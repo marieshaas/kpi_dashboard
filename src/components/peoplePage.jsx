@@ -91,7 +91,6 @@ const PeoplePage = ({ data }) => {
       <div className="max-w-6xl mx-auto mb-4 text-center">
         <div className="backdrop-blur-sm rounded-xl px-8 py-3 inline-block">
           <h2 className="text-3xl font-black text-white">Kehadiran</h2>
-          <p className="text-white opacity-50 text-base mt-1">Minggu Ini</p>
         </div>
       </div>
 

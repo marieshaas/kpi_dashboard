@@ -52,7 +52,6 @@ const DeliveryPage = ({ data }) => {
             </div>
             <div className="backdrop-blur-sm rounded-xl px-8 py-3 text-center">
               <h2 className="text-3xl font-black text-white">MIFOT</h2>
-              <p className="text-white opacity-50 text-base mt-1">Minggu Ini</p>
             </div>
           </div>
 
@@ -77,7 +76,6 @@ const DeliveryPage = ({ data }) => {
             <div className="backdrop-blur-sm rounded-xl px-8 py-3 text-center">
               <h2 className="text-3xl font-black text-white -mt-2">Maintenance</h2>
               <h2 className="text-3xl font-black text-white">Performance</h2>
-              <p className="text-white opacity-50 text-base mt-1">Minggu Ini</p>
             </div>
           </div>
 
@@ -96,8 +94,7 @@ const DeliveryPage = ({ data }) => {
               </div>
             </div>
             <div className="backdrop-blur-sm rounded-xl px-8 py-3 text-center">
-              <h2 className="text-3xl font-black text-white">DIFOT</h2>
-              <p className="text-white opacity-50 text-base mt-1">Minggu Ini</p>
+              <h2 className="text-3xl font-black text-white">Schedule Adherence</h2>
             </div>
           </div>
 

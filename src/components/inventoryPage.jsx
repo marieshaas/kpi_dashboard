@@ -50,7 +50,6 @@ const InventoryPage = ({ data }) => {
             <div className="backdrop-blur-sm rounded-xl px-8 py-3 text-center">
               <h2 className="text-3xl font-black text-white">Component</h2>
               <p className="text-white opacity-50 text-base">(Based on SLOC W001)</p>
-              <p className="text-white opacity-50 text-base mt-1">Minggu Ini</p>
             </div>
           </div>
 
@@ -71,7 +70,6 @@ const InventoryPage = ({ data }) => {
             </div>
             <div className="backdrop-blur-sm rounded-xl px-8 py-3 text-center">
               <h2 className="text-3xl font-black text-white">SF Inventory</h2>
-              <p className="text-white opacity-50 text-base mt-1">Minggu Ini</p>
             </div>
           </div>
 

@@ -73,7 +73,7 @@ export const kpiData = {
       },
       maintenance_perform: {
         mttr: {
-          value: "35",
+          value: "0",
           unit: "min"
         },
         am_tpm: {

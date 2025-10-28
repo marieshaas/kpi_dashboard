@@ -65,7 +65,6 @@ const SafetyPage = ({ data }) => {
             </div>
             <div className="backdrop-blur-sm rounded-xl px-8 py-3 text-center">
               <h2 className="text-3xl font-black text-white">TRIR</h2>
-              <p className="text-white opacity-50 text-base mt-1">Minggu Ini</p>
             </div>
           </div>
 
@@ -87,7 +86,6 @@ const SafetyPage = ({ data }) => {
             </div>
             <div className="backdrop-blur-sm rounded-xl px-8 py-3 text-center">
               <h2 className="text-3xl font-black text-white">LTI FR</h2>
-              <p className="text-white opacity-50 text-base mt-1">Minggu Ini</p>
             </div>
           </div>
 
@@ -112,7 +110,6 @@ const SafetyPage = ({ data }) => {
             </div>
             <div className="backdrop-blur-sm rounded-xl px-8 py-3 text-center">
               <h2 className="text-3xl font-black text-white">SHARE IT</h2>
-              <p className="text-white opacity-50 text-base mt-1">Minggu Ini</p>
             </div>
           </div>
 
