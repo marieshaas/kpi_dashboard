@@ -58,7 +58,9 @@ const QualityPage = ({ data }) => {
           <div>
             <div className="bg-white rounded-2xl shadow-xl p-12 mb-4 h-64 flex items-center justify-center">
                 <img src={qualityIssue} alt="Quality Issue" className="w-[400px] h-[370px] object-contain rounded-xl"/>
-              
+            </div>
+            <div className="text-2xl font-semibold text-green-900 opacity-80">
+                  {data.kpis.image.label}
             </div>
             <div className="backdrop-blur-sm rounded-xl px-8 py-3 text-center">
               <h2 className="text-3xl font-black text-white">Quality Issue</h2>

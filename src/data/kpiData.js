@@ -40,7 +40,7 @@ export const kpiData = {
     location: "All Area",
     kpis: {
       overtime: {
-        value: "125",
+        value: "99",
         unit: "%",
         label: "difference from planned"
       },
@@ -104,8 +104,11 @@ export const kpiData = {
     location: "All Area",
     kpis: {
     nc_router_doors: {
-      value: "1.5",
-      unit: "%",
+      value: "26",
+      unit: "pcs",
+    },
+    image: {
+      label: "dowel terlepas dari bottom rail"
     }
   },
 
@@ -116,10 +119,14 @@ export const kpiData = {
     location: "All Area",
     kpis: {
     component: {
-      value: "0"
+      value: "107.47",
+      unit: "%",
+      label: "difference from planned"
     },
     sf_inventory: {
-      value: "0"
+      value: "38",
+      unit: "%",
+      label: "difference from planned"
     }
   },
 }
