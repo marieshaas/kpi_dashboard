@@ -4,12 +4,12 @@ export const kpiData = {
     location: "Operation 3575",
     kpis: {
       attendance: {
-        value: "97.5",
+        value: "99.5",
         unit: "%",
         label: "Tingkat Kehadiran",
-        totalKaryawan: 350,
-        sakit: 3,
-        alfa: 1
+        totalKaryawan: 476,
+        sakit: 11,
+        alfa: 0
       }
     },
     insight: "Tingkat kehadiran tetap tinggi sebesar 97,5% dengan ketidakhadiran yang sangat minim. Dengan persentase kehadiran yang tinggi, menunjukkan bahwa adanya semangat kerja dan integritas yang tinggi di minggu ini"

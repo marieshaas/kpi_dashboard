@@ -17,6 +17,7 @@ const OpeningPage = () => {
           </div>
           <h2 className="text-6xl font-black text-purple-900">Performance</h2>
           <h2 className="text-6xl font-black text-purple-900">Overview</h2>
+          <h2 className="text-4xl font-black text-purple-900">Operation 3575</h2>
         </div>
 
         {/* Right Side - Category Bars */}
