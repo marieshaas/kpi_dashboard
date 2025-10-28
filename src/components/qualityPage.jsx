@@ -56,8 +56,8 @@ const QualityPage = ({ data }) => {
           {/* Quality Issue Column */}
           <div>
             <div className="bg-white rounded-2xl shadow-xl p-12 mb-4 h-64 flex flex-col items-center justify-center gap-4">
-              <img src={qualityIssue} alt="Quality Issue" className="w-auto h-40 object-contain rounded-xl"/>
-              <span className="text-2xl font-semibold text-green-900 opacity-80">
+              <img src={qualityIssue} alt="Quality Issue" className="w-auto h-50 object-contain rounded-xl"/>
+              <span className="text-2xl font-extrabold text-green-900 opacity-80">
                 {data.kpis.image.label}
               </span>
           </div>
