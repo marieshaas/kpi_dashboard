@@ -28,7 +28,7 @@ export const kpiData = {
         unit: "%",
       },
       share_it: {
-        value: "0",
+        value: "49",
         label: "Laporan"
       }
     },

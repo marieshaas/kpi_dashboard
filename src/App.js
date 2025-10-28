@@ -13,12 +13,12 @@ function App() {
   const [currentPage, setCurrentPage] = useState(0);
 
   const pages = [
-     { name: 'opening', component: OpeningPage, data: null, color: 'bg-gray-500' },
+    { name: 'opening', component: OpeningPage, data: null, color: 'bg-gray-500' },
     { name: 'people', component: PeoplePage, data: kpiData.people, color: 'bg-blue-500' },
     { name: 'safety', component: SafetyPage, data: kpiData.safety, color: 'bg-red-500' },
+    { name: 'quality', component: QualityPage, data: kpiData.quality , color: 'bg-green-500' },
     { name: 'cost',   component: CostPage,   data: kpiData.cost ,  color: 'bg-amber-500' },
     { name: 'delivery', component: DeliveryPage, data: kpiData.delivery , color: 'bg-teal-500' },
-    { name: 'quality', component: QualityPage, data: kpiData.quality , color: 'bg-green-500' },
     { name: 'inventory', component: InventoryPage, data: kpiData.inventory , color: 'bg-purple-500' },
 
   ];

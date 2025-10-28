@@ -35,6 +35,12 @@ const OpeningPage = () => {
             <h3 className="text-3xl font-black text-white">SAFETY</h3>
           </div>
 
+           {/* QUALITY */}
+          <div className="bg-gradient-to-r from-green-600 to-green-700 rounded-lg p-6 flex items-center gap-6 shadow-lg">
+            <BadgeCheck size={60} className="text-white" strokeWidth={2.5} />
+            <h3 className="text-3xl font-black text-white">QUALITY</h3>
+          </div>
+          
           {/* COST */}
           <div className="bg-gradient-to-r from-yellow-500 to-yellow-600 rounded-lg p-6 flex items-center gap-6 shadow-lg">
             <Banknote size={60} className="text-white" strokeWidth={2.5} />
@@ -45,12 +51,6 @@ const OpeningPage = () => {
           <div className="bg-gradient-to-r from-teal-600 to-teal-700 rounded-lg p-6 flex items-center gap-6 shadow-lg">
             <Truck size={60} className="text-white" strokeWidth={2.5} />
             <h3 className="text-3xl font-black text-white">DELIVERY</h3>
-          </div>
-
-          {/* QUALITY */}
-          <div className="bg-gradient-to-r from-green-600 to-green-700 rounded-lg p-6 flex items-center gap-6 shadow-lg">
-            <BadgeCheck size={60} className="text-white" strokeWidth={2.5} />
-            <h3 className="text-3xl font-black text-white">QUALITY</h3>
           </div>
 
           {/* INVENTORY */}
