@@ -59,15 +59,15 @@ export const kpiData = {
     kpis: {
       mifot: {
         joinerydoors: {
-          value: "0",
+          value: "99",
           unit: "%"
         },
         slabdoors_flush: {
-          value: "0",
+          value: "87",
           unit: "%"
         },
         wrd: {
-          value: "0",
+          value: "67",
           unit: "%"
         }        
       },
@@ -87,11 +87,11 @@ export const kpiData = {
       },
       difot: {
         joinerydoors: {
-          value: "0",
+          value: "95",
           unit: "%"
         },
         slabdoors_flush: {
-          value: "0",
+          value: "87",
           unit: "%"
         }
       }
