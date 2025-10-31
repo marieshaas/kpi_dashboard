@@ -80,10 +80,10 @@ const SafetyPage = ({ data }) => {
                   alt="warning icon" 
                   className="w-20 h-20 object-contain" 
                 />
+              </div>
                 <div className="text-7xl font-black text-red-900">
                   {data.kpis.share_it.value}
                 </div>
-              </div>
               <div className="text-2xl font-semibold text-red-900 opacity-80 mt-3">
                 {data.kpis.share_it.label}
               </div>
