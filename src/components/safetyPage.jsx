@@ -2,7 +2,6 @@ import React from 'react';
 import { Shield } from 'lucide-react';
 import logo from '../corinthian_doors_indonesia_logo.jpg';
 import emergencyicon from '../emergencyicon.png';
-import injuryicon from '../injuryicon.png';
 import warningicon from '../warningicon.png';
 
 const SafetyPage = ({ data }) => {
@@ -47,9 +46,9 @@ const SafetyPage = ({ data }) => {
       <div className="max-w-6xl mx-auto mb-6">
         <div className="grid grid-cols-3 gap-6">
           
-          {/* TRIR Column */}
+          {/* Icident Column */}
           <div>
-            <div className="bg-white rounded-2xl shadow-xl px-8 py-16 mb-4">
+            <div className="bg-white rounded-2xl shadow-xl p-12 mb-4 h-64 flex items-center justify-center">
               <div className="flex items-center gap-6">
                 {/* Icon Kiri */}
                 <div className="w-32 h-32 flex-shrink-0">
@@ -58,34 +57,13 @@ const SafetyPage = ({ data }) => {
                 {/* Angka & Label Kanan */}
                 <div className="flex-1 text-center">
                   <div className="text-7xl font-black text-red-900 mb-2">
-                    {data.kpis.trir.value}
+                    {data.kpis.incident.value}
                   </div>
                 </div>
               </div>
             </div>
             <div className="backdrop-blur-sm rounded-xl px-8 py-3 text-center">
-              <h2 className="text-3xl font-black text-white">TRIR</h2>
-            </div>
-          </div>
-
-          {/* LTI FR Column */}
-          <div>
-            <div className="bg-white rounded-2xl shadow-xl px-8 py-16 mb-4">
-              <div className="flex items-center gap-6">
-                {/* Icon Kiri */}
-                <div className="w-32 h-32 flex-shrink-0">
-                  <img src={injuryicon} alt="injury icon" className="w-full h-full object-contain"/>
-                </div>
-                {/* Angka & Label Kanan */}
-                <div className="flex-1 text-center">
-                  <div className="text-7xl font-black text-red-900 mb-2">
-                    {data.kpis.lti_fr.value}
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="backdrop-blur-sm rounded-xl px-8 py-3 text-center">
-              <h2 className="text-3xl font-black text-white">LTI FR</h2>
+              <h2 className="text-3xl font-black text-white">Total Insiden</h2>
             </div>
           </div>
 

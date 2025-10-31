@@ -19,13 +19,9 @@ export const kpiData = {
    week: "Week 43",
     location: "All Area",
     kpis: {
-      trir: {
+      incident: {
         value: "0",
-        unit: "%",
-      },
-      lti_fr: {
-        value: "0",
-        unit: "%",
+        label: "insiden",
       },
       share_it: {
         value: "49",
