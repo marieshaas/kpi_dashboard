@@ -44,11 +44,11 @@ const SafetyPage = ({ data }) => {
 
       {/* Main KPI Cards - TRIR, LTI FR, Share It */}
       <div className="max-w-6xl mx-auto mb-6">
-        <div className="grid grid-cols-3 gap-6">
+        <div className="grid grid-cols-2 gap-6">
           
           {/* Icident Column */}
           <div>
-            <div className="bg-white rounded-2xl shadow-xl max-w-max mb-4 h-64 flex items-center justify-center">
+            <div className="bg-white rounded-2xl shadow-xl p-8 mb-4 h-64 flex items-center justify-center">
               <div className="flex items-center gap-6">
                 {/* Icon Kiri */}
                 <div className="w-32 h-32 flex-shrink-0">
@@ -60,7 +60,7 @@ const SafetyPage = ({ data }) => {
                     {data.kpis.incident.value}
                   </div>
                   <div className="text-2xl font-semibold text-red-900 opacity-80">
-                    {data.kpis.incident.label}
+                    {data.kpis.share_it.label}
                   </div>
                 </div>
               </div>
