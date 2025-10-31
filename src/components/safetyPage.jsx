@@ -2,7 +2,7 @@ import React from 'react';
 import { Shield } from 'lucide-react';
 import logo from '../corinthian_doors_indonesia_logo.jpg';
 import emergencyicon from '../emergencyicon.png';
-import warningicon from '../warningicon.png';
+// import warningicon from '../warningicon.png';
 
 const SafetyPage = ({ data }) => {
   return (
@@ -73,21 +73,21 @@ const SafetyPage = ({ data }) => {
           {/* Share It Column */}
           <div>
             <div className="bg-white rounded-2xl shadow-xl px-8 py-16 mb-4">
-              <div className="flex flex-col items-center justify-center">
-              <div className="flex items-center gap-4">
-                <img 
-                  src={warningicon} 
-                  alt="warning icon" 
-                  className="w-20 h-20 object-contain" 
-                />
-              </div>
-                <div className="text-7xl font-black text-red-900">
-                  {data.kpis.share_it.value}
+              <div className="flex items-center gap-6">
+                {/* Icon Kiri
+                <div className="w-32 h-32 flex-shrink-0">
+                  <img src={warningicon} alt="warning icon" className="w-full h-full object-contain"/>
+                </div> */}
+                {/* Angka & Label Kanan */}
+                <div className="flex-1 text-center">
+                  <div className="text-7xl font-black text-red-900 mb-2">
+                    {data.kpis.share_it.value}
+                  </div>
+                  <div className="text-2xl font-semibold text-red-900 opacity-80">
+                    {data.kpis.share_it.label}
+                  </div>
                 </div>
-              <div className="text-2xl font-semibold text-red-900 opacity-80 mt-3">
-                {data.kpis.share_it.label}
               </div>
-            </div>
             </div>
             <div className="backdrop-blur-sm rounded-xl px-8 py-3 text-center">
               <h2 className="text-3xl font-black text-white">SHARE IT</h2>
