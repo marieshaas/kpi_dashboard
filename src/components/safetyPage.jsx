@@ -60,7 +60,7 @@ const SafetyPage = ({ data }) => {
                     {data.kpis.incident.value}
                   </div>
                   <div className="text-2xl font-semibold text-red-900 opacity-80">
-                    {data.kpis.share_it.label}
+                    {data.kpis.incident.label}
                   </div>
                 </div>
               </div>
