@@ -72,7 +72,7 @@ const SafetyPage = ({ data }) => {
           {/* Share It Column */}
           <div>
             <div className="bg-white rounded-2xl shadow-xl px-8 py-16 mb-4">
-              <div className="flex items-center gap-6">
+              <div className="flex items-center justify-center gap-6">
                  <div className="w-32 h-32 flex-shrink-0">
                   <img src={warningicon} alt="emergency icon" className="w-full h-full object-contain"/>
                 </div>
