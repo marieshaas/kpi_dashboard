@@ -75,15 +75,15 @@ const SafetyPage = ({ data }) => {
               <div className="flex items-center gap-6">
                 {/* Angka & Label Kanan */}
                 <div className="flex-1 text-center">
-                  <div className="w-32 h-32 flex-shrink-0">
-                  <img src={warningicon} alt="emergency icon" className="w-full h-full object-contain"/>
-                </div>
                   <div className="text-7xl font-black text-red-900 mb-2">
                     {data.kpis.share_it.value}
                   </div>
                   <div className="text-2xl font-semibold text-red-900 opacity-80">
                     {data.kpis.share_it.label}
                   </div>
+                </div>
+                <div className="w-32 h-32 flex-shrink-0">
+                  <img src={warningicon} alt="emergency icon" className="w-full h-full object-contain"/>
                 </div>
               </div>
             </div>
