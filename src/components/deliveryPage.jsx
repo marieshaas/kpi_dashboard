@@ -48,8 +48,10 @@ const DeliveryPage = ({ data }) => {
                 </div>
               </div>
                 <div className="bg-yellow-800 rounded-xl px-6 py-4 flex items-center justify-between">
+                  <div className="flex items-center justify-between mb-2">
                   <span className="text-white font-bold text-xl">Slab Doors & Flush</span>
                   <span className="text-white font-black text-2xl">{data.kpis.mifot.slabdoors_flush.value}{data.kpis.mifot.slabdoors_flush.unit}</span>
+                  </div>
                 </div>
                 <div className="bg-yellow-800 rounded-xl px-6 py-4 flex items-center justify-between">
                   <span className="text-white font-bold text-xl">WRD</span>
