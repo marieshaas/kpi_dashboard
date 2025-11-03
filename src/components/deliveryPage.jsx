@@ -58,7 +58,7 @@ const DeliveryPage = ({ data }) => {
                   </span>
                 </div>
                 </div>
-                <div className="bg-yellow-800 rounded-xl px-6 py-4 flex items-center justify-between">
+                <div className="bg-yellow-800 rounded-xl px-6 py-4">
                 <div className="flex items-center justify-between mb-2">
                     <span className="text-white font-bold text-xl">WRD</span>
                     <span className="text-white font-black text-2xl">{data.kpis.mifot.wrd.value}{data.kpis.mifot.wrd.unit}</span>
@@ -80,7 +80,7 @@ const DeliveryPage = ({ data }) => {
           <div>
             <div className="bg-white rounded-2xl shadow-xl p-6 mb-4">
               <div className="space-y-4">
-                <div className="bg-teal-700 rounded-xl px-6 py-4 flex items-center justify-between">
+                <div className="bg-teal-700 rounded-xl px-6 py-4">
                   <div className="flex items-center justify-between mb-2">
                     <span className="text-white font-bold text-xl">MTTR</span>
                     <span className="text-white font-black text-2xl">{data.kpis.maintenance_perform.mttr.value} {data.kpis.maintenance_perform.mttr.unit}</span>
@@ -91,7 +91,7 @@ const DeliveryPage = ({ data }) => {
                     </span>
                   </div>
                 </div>
-                <div className="bg-teal-700 rounded-xl px-6 py-4 flex items-center justify-between">
+                <div className="bg-teal-700 rounded-xl px-6 py-4">
                   <div className="flex items-center justify-between mb-2">
                     <span className="text-white font-bold text-xl">AM/TPM</span>
                     <span className="text-white font-black text-2xl">{data.kpis.maintenance_perform.am_tpm.value}{data.kpis.maintenance_perform.am_tpm.unit}</span>
@@ -102,7 +102,7 @@ const DeliveryPage = ({ data }) => {
                     </span>
                   </div>
                 </div>
-                <div className="bg-teal-700 rounded-xl px-6 py-4 flex items-center justify-between">
+                <div className="bg-teal-700 rounded-xl px-6 py-4">
                    <div className="flex items-center justify-between mb-2">
                     <span className="text-white font-bold text-xl">Breakdown Ratio</span>
                     <span className="text-white font-black text-2xl">{data.kpis.maintenance_perform.breakdown_ratio.value}{data.kpis.maintenance_perform.breakdown_ratio.unit}</span>
@@ -125,7 +125,7 @@ const DeliveryPage = ({ data }) => {
           <div>
             <div className="bg-white rounded-2xl shadow-xl p-6 mb-4">
               <div className="space-y-4">
-                <div className="bg-yellow-800 rounded-xl px-6 py-8 flex items-center justify-between">
+                <div className="bg-yellow-800 rounded-xl px-6 py-8">
                    <div className="flex items-center justify-between mb-2">
                     <span className="text-white font-bold text-xl">Joinery Doors</span>
                     <span className="text-white font-black text-3xl">{data.kpis.difot.joinerydoors.value}{data.kpis.difot.joinerydoors.unit}</span>
@@ -136,7 +136,7 @@ const DeliveryPage = ({ data }) => {
                     </span>
                   </div>
                 </div>
-                <div className="bg-yellow-800 rounded-xl px-6 py-8 flex items-center justify-between">
+                <div className="bg-yellow-800 rounded-xl px-6 py-8">
                   <div className="flex items-center justify-between mb-2">
                     <span className="text-white font-bold text-xl">Slab Doors & Flush</span>
                     <span className="text-white font-black text-3xl">{data.kpis.difot.slabdoors_flush.value}{data.kpis.difot.slabdoors_flush.unit}</span>
