@@ -3,6 +3,7 @@ import { Shield } from 'lucide-react';
 import logo from '../corinthian_doors_indonesia_logo.jpg';
 import emergencyicon from '../emergencyicon.png';
 import warningicon from '../warningicon.png';
+import injuryicon from '../injuryicon.png';
 
 const SafetyPage = ({ data }) => {
   return (
@@ -72,7 +73,7 @@ const SafetyPage = ({ data }) => {
             <div className="bg-white rounded-2xl shadow-xl px-8 py-16 mb-4">
               <div className="flex items-center justify-center gap-6">
                  <div className="w-32 h-32 flex-shrink-0">
-                  <img src={warningicon} alt="emergency icon" className="w-full h-full object-contain"/>
+                  <img src={injuryicon} alt="injury icon" className="w-full h-full object-contain"/>
                 </div>
                 <div className="text-center">
                   <div className="text-7xl font-black text-red-900 mb-2">
