@@ -52,6 +52,11 @@ const PeoplePage = ({ data }) => {
               <p className="text-2xl text-blue-600 font-bold ml-10">
                 {data.kpis.attendance.label}
               </p>
+              <div className="flex justify-center">
+                    <span className="bg-blue-600 bg-opacity-30 text-white text-xs font-semibold px-3 py-1 rounded-full">
+                      Target: {data.kpis.attendance.target}{data.kpis.attendance.unit}
+                    </span>
+              </div>
             </div>
 
             {/* Right - Info Badges */}

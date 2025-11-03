@@ -9,7 +9,8 @@ export const kpiData = {
         label: "Tingkat Kehadiran",
         totalKaryawan: 476,
         sakit: 11,
-        alfa: 0
+        alfa: 0,
+        target: "100"
       }
     },
     insight: "Tingkat kehadiran tetap tinggi sebesar 97,5% dengan ketidakhadiran yang sangat minim. Dengan persentase kehadiran yang tinggi, menunjukkan bahwa adanya semangat kerja dan integritas yang tinggi di minggu ini"
