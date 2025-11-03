@@ -136,7 +136,7 @@ const DeliveryPage = ({ data }) => {
                     </span>
                   </div>
                 </div>
-                <div className="bg-yellow-800 rounded-xl px-6 py-10">
+                <div className="bg-yellow-800 rounded-xl px-6 py-12">
                   <div className="flex items-center justify-between mb-2">
                     <span className="text-white font-bold text-xl">Slab Doors & Flush</span>
                     <span className="text-white font-black text-3xl">{data.kpis.difot.slabdoors_flush.value}{data.kpis.difot.slabdoors_flush.unit}</span>
