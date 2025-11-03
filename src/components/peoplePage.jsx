@@ -56,7 +56,6 @@ const PeoplePage = ({ data }) => {
 
             {/* Right - Info Badges */}
             <div className="flex flex-col gap-3 mr-10">
-              {/* Top Level - Total Karyawan */}
               <div className="bg-blue-600 text-white px-35 py-3 rounded-xl text-center">
                 <div className="text-xs font-bold opacity-90 mb-1">Total Karyawan:</div>
                 <div className="flex items-baseline justify-center gap-1">
@@ -68,16 +67,16 @@ const PeoplePage = ({ data }) => {
               {/* Bottom Level - Sakit & Alfa */}
               <div className="flex gap-3">
                 <div className="bg-blue-100 text-blue-600 px-20 py-3 rounded-xl text-center min-w-[100px]">
-                  <div className="text-xs font-semibold mb-1">Sakit:</div>
+                  <div className="text-sm font-semibold mb-1">Sakit:</div>
                   <div className="flex items-baseline justify-center gap-1">
-                    <span className="text-3xl font-black">{data.kpis.attendance.sakit}</span>
+                    <span className="text-4xl font-black">{data.kpis.attendance.sakit}</span>
                     <span className="text-sm font-semibold">org</span>
                   </div>
                 </div>
                 <div className="bg-blue-100 text-blue-600 px-20 py-3 rounded-xl text-center min-w-[100px]">
-                  <div className="text-xs font-semibold mb-1">Alfa:</div>
+                  <div className="text-sm font-semibold mb-1">Alfa:</div>
                   <div className="flex items-baseline justify-center gap-1">
-                    <span className="text-3xl font-black">{data.kpis.attendance.alfa}</span>
+                    <span className="text-4xl font-black">{data.kpis.attendance.alfa}</span>
                     <span className="text-sm font-semibold">org</span>
                   </div>
                 </div>
