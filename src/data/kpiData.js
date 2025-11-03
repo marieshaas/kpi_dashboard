@@ -21,7 +21,11 @@ export const kpiData = {
     kpis: {
       incident: {
         value: "0",
-        label: "insiden",
+        label: "Insiden",
+      },
+      no_incident: {
+        value: "0",
+        label: "Hari",
       },
       share_it: {
         value: "49",

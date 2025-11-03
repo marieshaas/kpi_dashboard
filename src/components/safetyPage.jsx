@@ -43,17 +43,15 @@ const SafetyPage = ({ data }) => {
       </div>
 
       <div className="max-w-6xl mx-auto mb-6">
-        <div className="grid grid-cols-2 gap-6">
+        <div className="grid grid-cols-3 gap-6">
           
           {/* Incident Column */}
           <div>
             <div className="bg-white rounded-2xl shadow-xl p-8 mb-4 h-64 flex items-center justify-center">
               <div className="flex items-center gap-6">
-                {/* Icon Kiri */}
                 <div className="w-32 h-32 flex-shrink-0">
                   <img src={emergencyicon} alt="emergency icon" className="w-full h-full object-contain"/>
                 </div>
-                {/* Angka & Label Kanan */}
                 <div className="flex-1 text-center">
                   <div className="text-7xl font-black text-red-900 mb-2">
                     {data.kpis.incident.value}
@@ -66,6 +64,28 @@ const SafetyPage = ({ data }) => {
             </div>
             <div className="backdrop-blur-sm rounded-xl px-8 py-3 text-center">
               <h2 className="text-3xl font-black text-white">Total Insiden</h2>
+            </div>
+          </div>
+
+          {/* Zero Days Incident Column */}
+          <div>
+            <div className="bg-white rounded-2xl shadow-xl px-8 py-16 mb-4">
+              <div className="flex items-center justify-center gap-6">
+                 <div className="w-32 h-32 flex-shrink-0">
+                  <img src={warningicon} alt="emergency icon" className="w-full h-full object-contain"/>
+                </div>
+                <div className="text-center">
+                  <div className="text-7xl font-black text-red-900 mb-2">
+                    {data.kpis.no_incident.value}
+                  </div>
+                  <div className="text-2xl font-semibold text-red-900 opacity-80">
+                    {data.kpis.no_incident.label}
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="backdrop-blur-sm rounded-xl px-8 py-3 text-center">
+              <h2 className="text-3xl font-black text-white">Jumlah Hari Tanpa Kecelakaan Kerja (lvl 1-4)</h2>
             </div>
           </div>
 
