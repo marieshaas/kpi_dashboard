@@ -52,8 +52,8 @@ const PeoplePage = ({ data }) => {
               <p className="text-2xl text-blue-600 font-bold ml-10">
                 {data.kpis.attendance.label}
               </p>
-              <div className="flex justify-center">
-                    <span className="bg-blue-600 bg-opacity-30 text-white text-xs font-semibold px-3 py-1 rounded-full">
+              <div className="flex justify-center gap-10">
+                    <span className="bg-blue-600 bg-opacity-80 text-white text-xs font-semibold px-10 py-8 rounded-full">
                       Target: {data.kpis.attendance.target}{data.kpis.attendance.unit}
                     </span>
               </div>
