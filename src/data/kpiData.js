@@ -77,25 +77,30 @@ export const kpiData = {
       maintenance_perform: {
         mttr: {
           value: "0",
-          unit: "min"
+          unit: "min",
+          target: "30"
         },
         am_tpm: {
           value: "100",
-          unit: "%"
+          unit: "%",
+          target: "100"
         },
         breakdown_ratio: {
           value: "0.08",
-          unit: "%"
+          unit: "%",
+          target: "0"
         }
       },
       difot: {
         joinerydoors: {
           value: "95",
-          unit: "%"
+          unit: "%",
+          target: "100"
         },
         slabdoors_flush: {
           value: "87",
-          unit: "%"
+          unit: "%",
+          target: "100"
         }
       }
     },
