@@ -85,7 +85,8 @@ const SafetyPage = ({ data }) => {
               </div>
             </div>
             <div className="backdrop-blur-sm rounded-xl px-8 py-3 text-center">
-              <h2 className="text-3xl font-black text-white">Jumlah Hari Tanpa Kecelakaan Kerja (lvl 1-4)</h2>
+              <h2 className="text-3xl font-black text-white">Jumlah Hari Tanpa Kecelakaan Kerja</h2>
+              <h2 className="text-2xl font-black text-white opacity-80">(level 1-4)</h2>
             </div>
           </div>
 
