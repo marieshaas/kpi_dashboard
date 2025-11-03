@@ -60,7 +60,8 @@ export const kpiData = {
       mifot: {
         joinerydoors: {
           value: "99",
-          unit: "%"
+          unit: "%",
+          target: "100"
         },
         slabdoors_flush: {
           value: "87",
