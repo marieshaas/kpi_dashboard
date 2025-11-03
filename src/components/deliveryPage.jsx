@@ -52,6 +52,11 @@ const DeliveryPage = ({ data }) => {
                   <span className="text-white font-bold text-xl">Slab Doors & Flush</span>
                   <span className="text-white font-black text-2xl">{data.kpis.mifot.slabdoors_flush.value}{data.kpis.mifot.slabdoors_flush.unit}</span>
                   </div>
+                  <div className="flex justify-end">
+                  <span className="bg-white bg-opacity-30 text-white text-xs font-semibold px-3 py-1 rounded-full">
+                    Target: {data.kpis.mifot.slabdoors_flush.target}{data.kpis.mifot.slabdoors_flush.unit}
+                  </span>
+                </div>
                 </div>
                 <div className="bg-yellow-800 rounded-xl px-6 py-4 flex items-center justify-between">
                   <span className="text-white font-bold text-xl">WRD</span>
