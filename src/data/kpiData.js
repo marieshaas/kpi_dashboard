@@ -65,11 +65,13 @@ export const kpiData = {
         },
         slabdoors_flush: {
           value: "87",
-          unit: "%"
+          unit: "%",
+          target: "100"
         },
         wrd: {
           value: "67",
-          unit: "%"
+          unit: "%",
+          target: "100"
         }        
       },
       maintenance_perform: {
