@@ -132,7 +132,7 @@ const DeliveryPage = ({ data }) => {
                   </div>
                   <div className="flex justify-end">
                     <span className="bg-white bg-opacity-30 text-white text-xs font-semibold px-3 py-1 rounded-full">
-                      Target: {data.kpis.difot.joinery_doors.target}{data.kpis.difot.joinery_doors.unit}
+                      Target: {data.kpis.difot.joinerydoors.target}{data.kpis.difot.joinerydoors.unit}
                     </span>
                   </div>
                 </div>
