@@ -15,7 +15,7 @@ const OpeningPage = () => {
               <img src={logo} alt="logo" className="w-full h-full object-contain"/>
             </div>
           </div>
-          <h2 className="text-6xl font-black text-purple-900">Performance</h2>
+          <h2 className="text-6xl font-black text-purple-900 -mt-5">Performance</h2>
           <h2 className="text-6xl font-black text-purple-900">Overview</h2>
           <h2 className="text-4xl font-black text-purple-900 mt-2">Operation 3575</h2>
         </div>

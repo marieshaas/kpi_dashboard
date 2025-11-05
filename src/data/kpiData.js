@@ -23,14 +23,17 @@ export const kpiData = {
       incident: {
         value: "0",
         label: "Insiden",
+        target: "0"
       },
       no_incident: {
         value: "0",
         label: "Hari",
+        target: "365"
       },
       share_it: {
         value: "49",
-        label: "Laporan"
+        label: "Laporan",
+        target: "min.1 Laporan"
       }
     },
     insight: ""
@@ -43,12 +46,14 @@ export const kpiData = {
       overtime: {
         value: "99",
         unit: "%",
-        label: "difference from planned"
+        label: "from planned",
+        target: "100%"
       },
       repair_maintenance: {
         value: "90",
         unit: "%",
-        label:"difference from planned"
+        label:"from planned",
+        target: "100%"
       }
     },
     insight: ""
@@ -114,7 +119,8 @@ export const kpiData = {
     kpis: {
     nc_router_doors: {
       value: "26",
-      unit: "pcs",
+      unit: "pieces",
+      target: "0"
     },
     image: {
       label: "Dowel terlepas dari bottom rail"
@@ -130,12 +136,14 @@ export const kpiData = {
     component: {
       value: "107.47",
       unit: "%",
-      label: "difference from planned"
+      label: "from planned",
+      target: "100"
     },
     sf_inventory: {
       value: "38",
       unit: "%",
-      label: "difference from planned"
+      label: "from planned",
+      target: "100"
     }
   },
 }
@@ -143,5 +151,11 @@ export const kpiData = {
 
 
 export const users = [
-  { username: "admin", password: "admin123", role: "admin", page: "people" },
+  { username: "admin", password: "ciidash2025", role: "admin", page: "all" },
+  { username: "peoplecii", password: "ciipeople", role: "people", page: "people" },
+  { username: "safetycii", password: "ciisafety", role: "safety", page: "safety" },
+  { username: "qualitycii", password: "ciiquality", role: "quality", page: "quality" },
+  { username: "costcii", password: "ciicost", role: "cost", page: "cost" },
+  { username: "deliverycii", password: "ciidelivery", role: "delivery", page: "delivery" },
+  { username: "inventorycii", password: "ciiinventory", role: "inventory", page: "inventory" }
 ];

@@ -32,16 +32,23 @@ const CostPage = ({ data }) => {
       <div className="max-w-6xl mx-auto mb-6">
         <div className="grid grid-cols-2 gap-6">
           
-          {/* Overtime Column */}
+         {/* Overtime Column */}
           <div>
-            <div className="bg-white rounded-2xl shadow-xl p-12 mb-4 h-64 flex items-center justify-center">
-              <div className="text-center">
-                <span className="text-8xl font-black text-yellow-900 mb-2">
-                  {data.kpis.overtime.value}
+            <div className="bg-white rounded-2xl shadow-xl p-12 mb-4 h-64 flex flex-col items-center justify-center">
+              <div className="flex justify-center -mt-9">
+                <span className="bg-yellow-100 text-yellow-900 text-xl font-bold px-14 py-1 rounded-xl">
+                  Target: {data.kpis.overtime.target} {data.kpis.overtime.label}
                 </span>
-                <span className="text-5xl font-black text-yellow-900">
-                  {data.kpis.overtime.unit}
-                </span>
+              </div>
+              <div className="text-center mt-2">
+                <div className="flex items-baseline justify-center">
+                  <span className="text-8xl font-black text-yellow-900">
+                    {data.kpis.overtime.value}
+                  </span>
+                  <span className="text-5xl font-black text-yellow-900">
+                    {data.kpis.overtime.unit}
+                  </span>
+                </div>
                 <div className="text-2xl font-semibold text-yellow-900 opacity-80">
                   {data.kpis.overtime.label}
                 </div>
@@ -54,14 +61,21 @@ const CostPage = ({ data }) => {
 
           {/* Repair Maintenance Column */}
           <div>
-            <div className="bg-white rounded-2xl shadow-xl p-12 mb-4 h-64 flex items-center justify-center">
-              <div className="text-center">
-                <span className="text-8xl font-black text-yellow-900 mb-2">
-                  {data.kpis.repair_maintenance.value}
+            <div className="bg-white rounded-2xl shadow-xl p-12 mb-4 h-64 flex flex-col items-center justify-center">
+              <div className="flex justify-center -mt-9">
+                <span className="bg-yellow-100 text-yellow-900 text-xl font-bold px-14 py-1 rounded-xl">
+                  Target: {data.kpis.repair_maintenance.target} {data.kpis.repair_maintenance.label}
                 </span>
-                <span className="text-5xl font-black text-yellow-900">
-                  {data.kpis.repair_maintenance.unit}
-                </span>
+              </div>
+              <div className="text-center mt-2">
+                <div className="flex items-baseline justify-center">
+                  <span className="text-8xl font-black text-yellow-900">
+                    {data.kpis.repair_maintenance.value}
+                  </span>
+                  <span className="text-5xl font-black text-yellow-900">
+                    {data.kpis.repair_maintenance.unit}
+                  </span>
+                </div>
                 <div className="text-2xl font-semibold text-yellow-900 opacity-80">
                   {data.kpis.repair_maintenance.label}
                 </div>

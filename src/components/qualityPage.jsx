@@ -35,16 +35,18 @@ const QualityPage = ({ data }) => {
           
           {/* NC Router Doors Column */}
           <div>
-            <div className="bg-white rounded-2xl shadow-xl p-12 mb-4 h-64 flex items-center justify-center">
-              <div className="text-center">
+            <div className="bg-white rounded-2xl shadow-xl p-12 mb-4 h-64 flex flex-col items-center justify-center">
+              <div className="flex justify-center -mt-10">
+                <span className="bg-green-200 text-green-900 text-xl font-bold px-14 py-1 rounded-xl">
+                  Target: {data.kpis.nc_router_doors.target} {data.kpis.nc_router_doors.unit}
+                </span>
+              </div>
+              <div className="text-center mt-2">
                 <span className="text-8xl font-black text-green-900 mb-2">
                   {data.kpis.nc_router_doors.value}
                 </span>
-                <span className="text-5xl font-black text-green-900">
-                  {data.kpis.nc_router_doors.unit}
-                </span>
                 <div className="text-2xl font-bold text-green-900 opacity-80">
-                  {data.kpis.nc_router_doors.label}
+                  {data.kpis.nc_router_doors.unit}
                 </div>
               </div>
             </div>

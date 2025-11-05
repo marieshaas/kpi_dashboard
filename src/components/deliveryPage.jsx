@@ -42,7 +42,7 @@ const DeliveryPage = ({ data }) => {
                   <span className="text-white font-black text-2xl">{data.kpis.mifot.joinerydoors.value}{data.kpis.mifot.joinerydoors.unit}</span>
                 </div>
                 <div className="flex justify-end">
-                  <span className="bg-white bg-opacity-30 text-white text-xs font-semibold px-3 py-1 rounded-full">
+                  <span className="bg-white bg-opacity-30 text-white text-lg font-bold px-3 py-1 rounded-full">
                     Target: {data.kpis.mifot.joinerydoors.target}{data.kpis.mifot.joinerydoors.unit}
                   </span>
                 </div>
@@ -53,7 +53,7 @@ const DeliveryPage = ({ data }) => {
                   <span className="text-white font-black text-2xl">{data.kpis.mifot.slabdoors_flush.value}{data.kpis.mifot.slabdoors_flush.unit}</span>
                   </div>
                   <div className="flex justify-end">
-                  <span className="bg-white bg-opacity-30 text-white text-xs font-semibold px-3 py-1 rounded-full">
+                  <span className="bg-white bg-opacity-30 text-white text-lg font-bold px-3 py-1 rounded-full">
                     Target: {data.kpis.mifot.slabdoors_flush.target}{data.kpis.mifot.slabdoors_flush.unit}
                   </span>
                 </div>
@@ -64,7 +64,7 @@ const DeliveryPage = ({ data }) => {
                     <span className="text-white font-black text-2xl">{data.kpis.mifot.wrd.value}{data.kpis.mifot.wrd.unit}</span>
                   </div>
                   <div className="flex justify-end">
-                    <span className="bg-white bg-opacity-30 text-white text-xs font-semibold px-3 py-1 rounded-full">
+                    <span className="bg-white bg-opacity-30 text-white text-lg font-bold px-3 py-1 rounded-full">
                       Target: {data.kpis.mifot.wrd.target}{data.kpis.mifot.wrd.unit}
                     </span>
                   </div>
@@ -86,7 +86,7 @@ const DeliveryPage = ({ data }) => {
                     <span className="text-white font-black text-2xl">{data.kpis.maintenance_perform.mttr.value} {data.kpis.maintenance_perform.mttr.unit}</span>
                   </div>
                   <div className="flex justify-end">
-                    <span className="bg-white bg-opacity-30 text-white text-xs font-semibold px-3 py-1 rounded-full">
+                    <span className="bg-white bg-opacity-30 text-white text-lg font-bold px-3 py-1 rounded-full">
                       Target: {data.kpis.maintenance_perform.mttr.target}{data.kpis.maintenance_perform.mttr.unit}
                     </span>
                   </div>
@@ -97,7 +97,7 @@ const DeliveryPage = ({ data }) => {
                     <span className="text-white font-black text-2xl">{data.kpis.maintenance_perform.am_tpm.value}{data.kpis.maintenance_perform.am_tpm.unit}</span>
                   </div>
                   <div className="flex justify-end">
-                    <span className="bg-white bg-opacity-30 text-white text-xs font-semibold px-3 py-1 rounded-full">
+                    <span className="bg-white bg-opacity-30 text-white text-lg font-bold px-3 py-1 rounded-full">
                       Target: {data.kpis.maintenance_perform.am_tpm.target}{data.kpis.maintenance_perform.am_tpm.unit}
                     </span>
                   </div>
@@ -108,7 +108,7 @@ const DeliveryPage = ({ data }) => {
                     <span className="text-white font-black text-2xl">{data.kpis.maintenance_perform.breakdown_ratio.value}{data.kpis.maintenance_perform.breakdown_ratio.unit}</span>
                   </div>
                   <div className="flex justify-end">
-                    <span className="bg-white bg-opacity-30 text-white text-xs font-semibold px-3 py-1 rounded-full">
+                    <span className="bg-white bg-opacity-30 text-white text-lg font-bold px-3 py-1 rounded-full">
                       Target: {data.kpis.maintenance_perform.breakdown_ratio.target}{data.kpis.maintenance_perform.breakdown_ratio.unit}
                     </span>
                   </div>
@@ -131,7 +131,7 @@ const DeliveryPage = ({ data }) => {
                     <span className="text-white font-black text-3xl">{data.kpis.difot.joinerydoors.value}{data.kpis.difot.joinerydoors.unit}</span>
                   </div>
                   <div className="flex justify-end">
-                    <span className="bg-white bg-opacity-30 text-white text-xs font-semibold px-3 py-1 rounded-full">
+                    <span className="bg-white bg-opacity-30 text-white text-lg font-bold px-3 py-1 rounded-full">
                       Target: {data.kpis.difot.joinerydoors.target}{data.kpis.difot.joinerydoors.unit}
                     </span>
                   </div>
@@ -142,7 +142,7 @@ const DeliveryPage = ({ data }) => {
                     <span className="text-white font-black text-3xl">{data.kpis.difot.slabdoors_flush.value}{data.kpis.difot.slabdoors_flush.unit}</span>
                   </div>
                   <div className="flex justify-end">
-                    <span className="bg-white bg-opacity-30 text-white text-xs font-semibold px-3 py-1 rounded-full">
+                    <span className="bg-white bg-opacity-30 text-white text-lg font-bold px-3 py-1 rounded-full">
                       Target: {data.kpis.difot.slabdoors_flush.target}{data.kpis.difot.slabdoors_flush.unit}
                     </span>
                   </div>

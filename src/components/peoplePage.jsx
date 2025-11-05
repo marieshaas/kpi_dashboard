@@ -36,24 +36,24 @@ const PeoplePage = ({ data }) => {
           <div className="flex items-center justify-between">
             {/* Left Icon */}
             <div className="w-[192px] h-[192px]">
-              <img src={peopleicon} alt="people icon" className="w-full h-full object-contain ml-20"/>
+              <img src={peopleicon} alt="people icon" className="w-full h-full object-contain ml-10"/>
             </div>
 
             {/* Center - Big Number */}
-            <div className="flex-1 text-center">
-              <div className="flex items-baseline justify-center gap-2 mb-2 ml-20">
-                <span className="text-8xl font-black text-green-600">
+            <div className="flex-1 text-center mb-6">
+              <div className="flex items-baseline justify-center gap-2 mb-2 mt-5 ml-5">
+                <span className="text-8xl font-black text-blue-600">
                   {data.kpis.attendance.value}
                 </span>
-                <span className="text-5xl font-black text-green-600">
+                <span className="text-5xl font-black text-blue-600">
                   {data.kpis.attendance.unit}
                 </span>
               </div>
-              <p className="text-2xl text-blue-600 font-bold ml-10">
+              <p className="text-2xl text-blue-600 opacity-90 font-bold ml-1 -mt-2">
                 {data.kpis.attendance.label}
               </p>
               <div className="flex justify-center gap-10">
-                    <span className="bg-blue-600  text-white text-base font-semibold px-24 py-1 ml-20 mt-2 rounded-2xl">
+                    <span className="bg-blue-100 text-blue-600 text-xl font-bold px-14 py-1 ml-2 rounded-xl mt-2">
                       Target: {data.kpis.attendance.target}{data.kpis.attendance.unit}
                     </span>
               </div>
@@ -62,7 +62,7 @@ const PeoplePage = ({ data }) => {
             {/* Right - Info Badges */}
             <div className="flex flex-col gap-3 mr-10">
               <div className="bg-blue-600 text-white px-35 py-3 rounded-xl text-center">
-                <div className="text-xs font-bold opacity-90 mb-1">Total Karyawan:</div>
+                <div className="text-base font-bold opacity-90 mb-1">Total Karyawan:</div>
                 <div className="flex items-baseline justify-center gap-1">
                   <span className="text-5xl font-black">{data.kpis.attendance.totalKaryawan}</span>
                   <span className="text-sm font-semibold">org</span>
@@ -72,17 +72,17 @@ const PeoplePage = ({ data }) => {
               {/* Bottom Level - Sakit & Alfa */}
               <div className="flex gap-3">
                 <div className="bg-blue-100 text-blue-600 px-20 py-3 rounded-xl text-center min-w-[100px]">
-                  <div className="text-sm font-semibold mb-1">Sakit:</div>
+                  <div className="text-base font-semibold mb-1">Sakit:</div>
                   <div className="flex items-baseline justify-center gap-1">
-                    <span className="text-4xl font-black">{data.kpis.attendance.sakit}</span>
-                    <span className="text-sm font-semibold">org</span>
+                    <span className="text-5xl font-black">{data.kpis.attendance.sakit}</span>
+                    <span className="text-base font-semibold">org</span>
                   </div>
                 </div>
                 <div className="bg-blue-100 text-blue-600 px-20 py-3 rounded-xl text-center min-w-[100px]">
-                  <div className="text-sm font-semibold mb-1">Alfa:</div>
+                  <div className="text-base font-semibold mb-1">Alfa:</div>
                   <div className="flex items-baseline justify-center gap-1">
-                    <span className="text-4xl font-black">{data.kpis.attendance.alfa}</span>
-                    <span className="text-sm font-semibold">org</span>
+                    <span className="text-5xl font-black">{data.kpis.attendance.alfa}</span>
+                    <span className="text-base font-semibold">org</span>
                   </div>
                 </div>
               </div>

@@ -34,8 +34,13 @@ const InventoryPage = ({ data }) => {
           
           {/* Component Column */}
           <div>
-            <div className="bg-white rounded-2xl shadow-xl p-12 mb-4 h-64 flex items-center justify-center">
-              <div className="text-center">
+            <div className="bg-white rounded-2xl shadow-xl p-12 mb-4 h-64 flex flex-col items-center justify-center">
+              <div className="flex justify-center -mt-9">
+                <span className="bg-purple-200 text-purple-900 text-xl font-bold px-14 py-1 rounded-xl">
+                  Target: {data.kpis.component.target}{data.kpis.component.unit} {data.kpis.component.label}
+                </span>
+              </div>
+              <div className="text-center mt-2">
                 <span className="text-8xl font-black text-purple-900 mb-2">
                   {data.kpis.component.value}
                 </span>
@@ -55,8 +60,13 @@ const InventoryPage = ({ data }) => {
 
           {/* SF Inventory Column */}
           <div>
-            <div className="bg-white rounded-2xl shadow-xl p-12 mb-4 h-64 flex items-center justify-center">
-              <div className="text-center">
+            <div className="bg-white rounded-2xl shadow-xl p-12 mb-4 h-64 flex flex-col items-center justify-center">
+              <div className="flex justify-center -mt-9">
+                <span className="bg-purple-200 text-purple-900 text-xl font-bold px-14 py-1 rounded-xl">
+                  Target: {data.kpis.sf_inventory.target}{data.kpis.sf_inventory.unit} {data.kpis.sf_inventory.label}
+                </span>
+              </div>
+              <div className="text-center mt-2">
                 <span className="text-8xl font-black text-purple-900 mb-2">
                   {data.kpis.sf_inventory.value}
                 </span>

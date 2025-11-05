@@ -8,18 +8,6 @@ import injuryicon from '../injuryicon.png';
 const SafetyPage = ({ data }) => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-red-500 to-red-700 p-6">
-      {/* Navigation Dots
-      <div className="flex justify-center mb-4">
-        <div className="bg-white/30 backdrop-blur-sm rounded-full px-4 py-2 flex gap-2">
-          <div className="w-10 h-2 bg-white rounded-full"></div>
-          <div className="w-2 h-2 bg-red-500 rounded-full"></div>
-          <div className="w-2 h-2 bg-amber-500 rounded-full"></div>
-          <div className="w-2 h-2 bg-teal-600 rounded-full"></div>
-          <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-          <div className="w-2 h-2 bg-purple-600 rounded-full"></div>
-        </div>
-      </div> */}
-
       {/* Header */}
       <div className="bg-white rounded-2xl shadow-xl p-6 mb-6 max-w-6xl mx-auto mt-20">
         <div className="flex items-center justify-between">
@@ -48,12 +36,17 @@ const SafetyPage = ({ data }) => {
           
           {/* Incident Column */}
           <div>
-            <div className="bg-white rounded-2xl shadow-xl p-8 mb-4 h-64 flex items-center justify-center">
-              <div className="flex items-center gap-6">
-                <div className="w-32 h-32 flex-shrink-0">
+            <div className="bg-white rounded-2xl shadow-xl p-8 mb-4 h-64 flex flex-col justify-center">
+              <div className="flex justify-center -mt-9">
+                <span className="bg-red-200 text-red-900 text-xl font-bold px-14 py-1 rounded-xl">
+                  Target: {data.kpis.incident.target} {data.kpis.incident.label}
+                </span>
+              </div>
+              <div className="flex items-center justify-center mt-2">
+                <div className="w-32 h-32 flex-shrink-0 mr-6">
                   <img src={emergencyicon} alt="emergency icon" className="w-full h-full object-contain"/>
                 </div>
-                <div className="flex-1 text-center">
+                <div className="text-center">
                   <div className="text-7xl font-black text-red-900 mb-2">
                     {data.kpis.incident.value}
                   </div>
@@ -70,12 +63,17 @@ const SafetyPage = ({ data }) => {
 
           {/* Zero Days Incident Column */}
           <div>
-            <div className="bg-white rounded-2xl shadow-xl px-8 py-16 mb-4 flex items-center justify-center">
-              <div className="flex items-center justify-center gap-6">
-                 <div className="w-32 h-32 flex-shrink-0">
+            <div className="bg-white rounded-2xl shadow-xl px-8 py-16 mb-4 flex flex-col items-center justify-center">
+              <div className="flex justify-center -mt-10">
+                <span className="bg-red-200 text-red-900 text-xl font-bold px-14 py-1 rounded-xl">
+                  Target: {data.kpis.no_incident.target} {data.kpis.no_incident.label}
+                </span>
+              </div>
+              <div className="flex items-center justify-center mt-2">
+                 <div className="w-32 h-32 flex-shrink-0 mr-6">
                   <img src={injuryicon} alt="injury icon" className="w-full h-full object-contain"/>
                 </div>
-                <div className="text-center">
+                <div className="text-center mr-5">
                   <div className="text-7xl font-black text-red-900 mb-2">
                     {data.kpis.no_incident.value}
                   </div>
@@ -94,12 +92,17 @@ const SafetyPage = ({ data }) => {
           {/* Share It Column */}
           <div>
             <div className="bg-white rounded-2xl shadow-xl px-8 py-16 mb-4">
-              <div className="flex items-center justify-center gap-6">
-                 <div className="w-32 h-32 flex-shrink-0">
+              <div className="flex justify-center -mt-10">
+                <span className="bg-red-200 text-red-900 text-lg font-bold px-14 py-1 rounded-xl">
+                  Target: {data.kpis.share_it.target} 
+                </span>
+              </div>
+              <div className="flex items-center justify-center mt-2">
+                 <div className="w-32 h-32 flex-shrink-0 mr-6">
                   <img src={warningicon} alt="emergency icon" className="w-full h-full object-contain"/>
                 </div>
                 {/* Angka & Label Kanan */}
-                <div className="text-center">
+                <div className="text-center mr-5">
                   <div className="text-7xl font-black text-red-900 mb-2">
                     {data.kpis.share_it.value}
                   </div>
