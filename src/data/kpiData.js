@@ -123,7 +123,8 @@ export const kpiData = {
       target: "0"
     },
     image: {
-      label: "Dowel terlepas dari bottom rail"
+      label: "Dowel terlepas dari bottom rail",
+      url: "https://drive.google.com/file/d/your-file-id/view"
     }
   },
 

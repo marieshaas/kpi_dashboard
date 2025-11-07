@@ -37,7 +37,7 @@ const CostPage = ({ data }) => {
             <div className="bg-white rounded-2xl shadow-xl p-12 mb-4 h-64 flex flex-col items-center justify-center">
               <div className="flex justify-center -mt-9">
                 <span className="bg-yellow-100 text-yellow-900 text-xl font-bold px-14 py-1 rounded-xl">
-                  Target: {data.kpis.overtime.target} {data.kpis.overtime.label}
+                  Target: {data.kpis.overtime.target}{data.kpis.overtime.unit} {data.kpis.overtime.label}
                 </span>
               </div>
               <div className="text-center mt-2">
@@ -64,7 +64,7 @@ const CostPage = ({ data }) => {
             <div className="bg-white rounded-2xl shadow-xl p-12 mb-4 h-64 flex flex-col items-center justify-center">
               <div className="flex justify-center -mt-9">
                 <span className="bg-yellow-100 text-yellow-900 text-xl font-bold px-14 py-1 rounded-xl">
-                  Target: {data.kpis.repair_maintenance.target} {data.kpis.repair_maintenance.label}
+                  Target: {data.kpis.repair_maintenance.target}{data.kpis.repair_maintenance.unit} {data.kpis.repair_maintenance.label}
                 </span>
               </div>
               <div className="text-center mt-2">
