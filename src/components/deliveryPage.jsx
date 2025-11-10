@@ -54,7 +54,7 @@ const DeliveryPage = ({ data }) => {
                   </div>
                   <div className="flex justify-end">
                   <span className="bg-white bg-opacity-30 text-white text-lg font-bold px-3 py-1 rounded-full">
-                    Target: {data.kpis.mifot.slabdoors_flush.target}{data.kpis.mifot.slabdoors_flush.unit}
+                    Target: {data.kpis.mifot.slabdoors_flush.target}
                   </span>
                 </div>
                 </div>
@@ -65,7 +65,7 @@ const DeliveryPage = ({ data }) => {
                   </div>
                   <div className="flex justify-end">
                     <span className="bg-white bg-opacity-30 text-white text-lg font-bold px-3 py-1 rounded-full">
-                      Target: {data.kpis.mifot.wrd.target}{data.kpis.mifot.wrd.unit}
+                      Target: {data.kpis.mifot.wrd.target}
                     </span>
                   </div>
                 </div>
@@ -132,7 +132,7 @@ const DeliveryPage = ({ data }) => {
                   </div>
                   <div className="flex justify-end">
                     <span className="bg-white bg-opacity-30 text-white text-lg font-bold px-3 py-1 rounded-full">
-                      Target: {data.kpis.difot.joinerydoors.target}{data.kpis.difot.joinerydoors.unit}
+                      Target: {data.kpis.difot.joinerydoors.target}
                     </span>
                   </div>
                 </div>
@@ -143,7 +143,7 @@ const DeliveryPage = ({ data }) => {
                   </div>
                   <div className="flex justify-end">
                     <span className="bg-white bg-opacity-30 text-white text-lg font-bold px-3 py-1 rounded-full">
-                      Target: {data.kpis.difot.slabdoors_flush.target}{data.kpis.difot.slabdoors_flush.unit}
+                      Target: {data.kpis.difot.slabdoors_flush.target}
                     </span>
                   </div>
                 </div>
