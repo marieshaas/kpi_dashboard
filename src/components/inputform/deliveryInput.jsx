@@ -144,7 +144,7 @@ const DeliveryInputForm = ({ onSave, currentData, onLogout }) => {
             </div>
 
             <div className="mb-6">
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">Schedule Adherence (DIFOT)</h2>
+              <h2 className="text-2xl font-bold text-gray-800 mb-4">Schedule Adherence</h2>
               <div className="grid grid-cols-2 gap-6">
                 <div>
                   <label className="block text-teal-900 font-bold mb-2">Joinery Doors (%)</label>

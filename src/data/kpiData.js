@@ -1,14 +1,14 @@
 export const kpiData = {
   people: {
-    week: "Week 43",
+    week: "Week 40",
     location: "Operation 3575",
     kpis: {
       attendance: {
-        value: "99.5",
+        value: "100",
         unit: "%",
         label: "Tingkat Kehadiran",
-        totalKaryawan: 476,
-        sakit: 11,
+        totalKaryawan: 500,
+        sakit: 0,
         alfa: 0,
         target: "100"
       }
@@ -17,7 +17,7 @@ export const kpiData = {
   },
 
   safety: {
-   week: "Week 43",
+   week: "Week 40",
     location: "All Area",
     kpis: {
       incident: {
@@ -31,7 +31,7 @@ export const kpiData = {
         target: "365"
       },
       share_it: {
-        value: "49",
+        value: "50",
         label: "Laporan",
         target: "min.1 Laporan"
       }
@@ -40,17 +40,17 @@ export const kpiData = {
   },
 
   cost: {
-   week: "Week 43",
+   week: "Week 40",
     location: "All Area",
     kpis: {
       overtime: {
-        value: "99",
+        value: "100",
         unit: "%",
         label: "from planned",
         target: "100%"
       },
       repair_maintenance: {
-        value: "90",
+        value: "100",
         unit: "%",
         label:"from planned",
         target: "100%"
@@ -60,22 +60,22 @@ export const kpiData = {
   },
 
   delivery: {
-    week: "Week 43",
+    week: "Week 40",
     location: "All Area",
     kpis: {
       mifot: {
         joinerydoors: {
-          value: "99",
+          value: "100",
           unit: "%",
           target: "100"
         },
         slabdoors_flush: {
-          value: "87",
+          value: "100",
           unit: "%",
           target: "100"
         },
         wrd: {
-          value: "67",
+          value: "100",
           unit: "%",
           target: "100"
         }        
@@ -92,19 +92,19 @@ export const kpiData = {
           target: "100"
         },
         breakdown_ratio: {
-          value: "0.08",
+          value: "0.1",
           unit: "%",
           target: "0"
         }
       },
       difot: {
         joinerydoors: {
-          value: "95",
+          value: "100",
           unit: "%",
           target: "100"
         },
         slabdoors_flush: {
-          value: "87",
+          value: "100",
           unit: "%",
           target: "100"
         }
@@ -114,16 +114,16 @@ export const kpiData = {
   },
 
   quality: {
-    week: "Week 43",
+    week: "Week 40",
     location: "All Area",
     kpis: {
     nc_router_doors: {
-      value: "26",
+      value: "50",
       unit: "pieces",
       target: "0"
     },
     image: {
-      label: "Dowel terlepas dari bottom rail",
+      label: "-",
       url: "https://drive.google.com/file/d/your-file-id/view"
     }
   },
@@ -131,17 +131,17 @@ export const kpiData = {
 },
   
   inventory:{
-    week: "Week 43",
+    week: "Week 40",
     location: "All Area",
     kpis: {
     component: {
-      value: "107.47",
+      value: "100",
       unit: "%",
       label: "from planned",
       target: "100"
     },
     sf_inventory: {
-      value: "38",
+      value: "100",
       unit: "%",
       label: "from planned",
       target: "100"
