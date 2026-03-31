@@ -33,7 +33,7 @@ export const kpiData = {
       share_it: {
         value: "50",
         label: "Laporan",
-        target: "min.30 Laporan/Week"
+        target: "min.30/Week"
       }
     },
     insight: ""
