@@ -28,12 +28,12 @@ export const kpiData = {
       no_incident: {
         value: "0",
         label: "Hari",
-        target: "365"
+        target: "5000"
       },
       share_it: {
         value: "50",
         label: "Laporan",
-        target: "min.1 Laporan"
+        target: "min.30 Laporan/Week"
       }
     },
     insight: ""
